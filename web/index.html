@@ -23,13 +23,37 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="toolhub">
+  <meta name="apple-mobile-web-app-title" content="uebung5">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <title>toolhub</title>
+  <title>StudiRepUebung6</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+  
+  // Initialize Firebase
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyA62PMuMkXx0zf7QYb7HlPjtk_c5ngre2c",
+      authDomain: "toolhub-d0715.firebaseapp.com",
+      projectId: "toolhub-d0715",
+      storageBucket: "toolhub-d0715.appspot.com",
+      messagingSenderId: "964383742165",
+      appId: "1:964383742165:web:98e3b3c6c261857924ea5c"
+    };
+  
+    // Initialize Firebase
+     firebase.initializeApp(firebaseConfig);
+   
+  </script>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
